@@ -1,0 +1,59 @@
+.intro {
+  width: 830px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 92px;
+}
+
+.intro__title {
+  font-size: 54px;
+  line-height: 58px;
+  font-weight: 900;
+}
+
+.intro__blockquote {
+  font-size: 24px;
+  line-height: 34px;
+  width: 738px;
+  margin-top: 40px;
+}
+
+.intro__cite {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  width: 732px;
+  margin-top: 10px;
+}
+
+.intro__paragraph {
+  line-height: 1.63;
+  margin-top: 32px;
+  width: 722px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 504px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    margin: 90px auto 0 auto;
+  }
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+
+  .intro__cite {
+    margin-top: 26px;
+  }
+
+  .intro,
+  .intro__blockquote,
+  .intro__cite,
+  .intro__paragraph {
+    width: 93%;
+    max-width: 93%;
+    box-sizing: border-box;
+  }
+}

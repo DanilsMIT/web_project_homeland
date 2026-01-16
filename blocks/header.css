@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 255px;
+  height: 70px;
+  margin-top: 34px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 504px) {
+  .logo {
+    width: 34%;
+    height: 8%;
+    margin-top: 28px;
+  }
+}
