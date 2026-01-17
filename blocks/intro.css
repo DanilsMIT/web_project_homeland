@@ -35,6 +35,8 @@
 
 @media screen and (max-width: 1024px) and (min-width: 504px) {
   .intro {
+    width: 93.75%;
+    max-width: 93.75%;
     display: flex;
     flex-direction: column;
     margin: 90px auto 0 auto;
@@ -48,12 +50,11 @@
     margin-top: 26px;
   }
 
-  .intro,
   .intro__blockquote,
   .intro__cite,
   .intro__paragraph {
-    width: 93%;
-    max-width: 93%;
+    width: 100%;
+    height: auto;
     box-sizing: border-box;
   }
 }

@@ -34,20 +34,16 @@
 }
 
 @media screen and (max-width: 1024px) and (min-width: 504px) {
-  .lead {
-    width: 100%;
-    height: auto;
-  }
   .lead__title {
     font-size: 75px;
     line-height: 79px;
-    width: 530px;
-    height: 158px;
+    width: 69%;
+    height: 20%;
   }
 
   .lead__subtitle {
-    width: 100%;
-    height: auto;
+    width: 93.75%;
+    height: 9.3%;
     margin: 25px 0 30px;
     text-align: center;
   }
@@ -60,8 +56,6 @@
   .lead__image,
   .lead__title,
   .lead__subtitle {
-    width: 100%;
-    height: auto;
     box-sizing: border-box;
   }
 }
