@@ -58,3 +58,32 @@
     box-sizing: border-box;
   }
 }
+
+@media screen and (max-width: 504px) and (min-width: 320px) {
+  .intro {
+    width: 90%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 64px auto 0 auto;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .intro__blockquote {
+    line-height: 30px;
+  }
+
+  .intro__cite {
+    margin-top: 10px;
+  }
+
+  .intro__blockquote,
+  .intro__cite,
+  .intro__paragraph {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+}
