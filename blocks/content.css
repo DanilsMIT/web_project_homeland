@@ -12,8 +12,9 @@
     align-items: center;
     margin: 88px auto 0 auto;
     min-width: auto;
-    width: 100%;
-    max-width: 100%;
+
+    width: 93.75%;
+    max-width: 93.75%;
     box-sizing: border-box;
   }
 }
