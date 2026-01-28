@@ -34,18 +34,17 @@
 
 @media screen and (max-width: 1024px) and (min-width: 504px) {
   .lead {
-    width: 100%;
     max-width: 100%;
   }
 
   .lead__title {
     font-size: 75px;
     line-height: 79px;
-    width: 73.61%;
+    max-width: 73.61%;
   }
 
   .lead__subtitle {
-    width: 100%;
+    max-width: 100%;
     margin: 25px 0 30px;
   }
 
@@ -53,30 +52,21 @@
     max-width: 106.67%;
     height: auto;
   }
-  .lead,
-  .lead__image,
-  .lead__title,
-  .lead__subtitle {
-    box-sizing: border-box;
-  }
 }
 
 @media screen and (max-width: 504px) and (min-width: 320px) {
   .lead {
-    width: 90%;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .lead__title {
     font-size: 40px;
     line-height: 44px;
-    width: 100%;
-    height: auto;
+    max-width: 100%;
   }
 
   .lead__subtitle {
-    width: 100%;
-    height: 40px;
+    max-width: 100%;
     margin: 16px 0 40px;
     text-align: center;
     font-size: 16px;
@@ -86,11 +76,5 @@
   .lead__image {
     max-width: 110%;
     height: auto;
-  }
-  .lead,
-  .lead__image,
-  .lead__title,
-  .lead__subtitle {
-    box-sizing: border-box;
   }
 }
