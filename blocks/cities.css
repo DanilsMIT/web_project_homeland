@@ -1,4 +1,9 @@
 .cities {
+  margin-top: 92px;
   width: 987px;
   height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 80px;
+  box-sizing: border-box;
 }
