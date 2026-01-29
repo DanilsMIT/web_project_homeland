@@ -5,11 +5,12 @@
 }
 
 .card__image {
-  width: 94%;
-  height: 85%;
   margin-top: 48px;
+  width: 460px;
+  height: 460px;
   transition: filter 0.3s ease;
   cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
 }
 .card__image:hover {
   filter: brightness(0.5);
@@ -25,6 +26,7 @@
   line-height: 48px;
   text-align: center;
   text-decoration: none;
+  margin-top: 48px;
 }
 .card__button:hover {
   filter: brightness(0.7);
@@ -52,16 +54,26 @@
   line-height: 22px;
 }
 
+.card__paragraphs {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  grid-row: span 3;
+}
+
 .card__paragraph {
   width: 98.7%;
   font-size: 18px;
   line-height: 163%;
-  margin-top: 48px;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 640px) {
+  .card {
+  }
+
   .card__image {
-    width: 94.2%;
+    width: 95%;
     height: 340px;
   }
   .card__title {
@@ -71,10 +83,16 @@
   .card__artist {
     padding-top: 0;
   }
+  .card__paragraphs {
+    padding-left: 10px;
+    grid-row: span 3;
+  }
 
   .card__paragraph {
     font-size: 16px;
-    grid-row: span 2;
+  }
+  .card__button {
+    grid-row: 3;
   }
 }
 
@@ -97,16 +115,18 @@
   .card__artist {
     padding-top: 30px;
   }
+  .card__paragraph {
+  }
 
   .card__paragraph {
-    margin-top: 30px;
-    margin-bottom: 30px;
     font-family: Inter;
     font-size: 16px;
-    grid-row: span 2;
   }
   .card__button {
-    margin: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row: 7;
   }
   .card__button-link {
     font-size: 14px;
