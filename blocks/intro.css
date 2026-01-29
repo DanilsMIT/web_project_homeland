@@ -52,6 +52,9 @@
   .intro__blockquote {
     max-width: 100%;
   }
+  .intro__paragraph {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 504px) and (min-width: 320px) {

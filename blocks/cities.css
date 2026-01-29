@@ -4,6 +4,17 @@
   height: auto;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 80px;
+  gap: 72px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 504px) {
+  .cities {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 504px) and (min-width: 320px) {
+  .cities {
+    max-width: 100%;
+  }
 }

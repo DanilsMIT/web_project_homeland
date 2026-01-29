@@ -37,7 +37,7 @@
   transition: transform 0.3s ease;
 }
 .lead__image:hover {
-  transform: scale(1.03);
+  transform: scale(1.01);
 }
 
 @media screen and (max-width: 1024px) and (min-width: 504px) {
@@ -57,7 +57,7 @@
   }
 
   .lead__image {
-    max-width: 106.67%;
+    max-width: 100%;
     height: auto;
   }
 }
@@ -82,7 +82,7 @@
   }
 
   .lead__image {
-    max-width: 110%;
+    max-width: 100%;
     height: auto;
   }
 }
