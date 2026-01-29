@@ -8,10 +8,11 @@
   width: 94%;
   height: 85%;
   margin-top: 48px;
-  transition: box-shadow 0.3s ease;
+  transition: filter 0.3s ease;
+  cursor: pointer;
 }
 .card__image:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  filter: brightness(0.5);
 }
 
 .card__button {
@@ -19,12 +20,15 @@
   height: 48px;
   color: white;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
-  transition: box-shadow 0.3s ease;
+  transition: filter 0.3s ease;
+  position: relative;
 }
 .card__button:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  filter: brightness(0.7);
 }
+
 .card__button-link {
+  filter: none;
   text-decoration: none;
   color: white;
   display: block;
